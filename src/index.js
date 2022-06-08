@@ -4,7 +4,7 @@ const ctx = canvas.getContext("2d");
 canvas.style.backgroundColor = "lightgray";
 
 let pelotaImage = new Image();
-pelotaImage.src = "src/Pelota.png";
+pelotaImage.src = "src/goomba.png";
 
 let palaImage = new Image();
 palaImage.src = "src/Pala.png";
