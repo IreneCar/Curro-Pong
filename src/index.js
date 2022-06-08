@@ -1,7 +1,7 @@
 const canvas = document.querySelector("#canvas");
 const ctx = canvas.getContext("2d");
 
-canvas.style.backgroundColor = "lightgray";
+canvas.style.backgroundColor = "#43b047";
 
 let pelotaImage = new Image();
 pelotaImage.src = "src/PelotaGoomba.png";
