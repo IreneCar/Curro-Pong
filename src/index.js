@@ -4,7 +4,7 @@ const ctx = canvas.getContext("2d");
 canvas.style.backgroundColor = "lightgray";
 
 let pelotaImage = new Image();
-pelotaImage.src = "src/goomba.png";
+pelotaImage.src = "src/PelotaGoomba.png";
 
 let palaImage = new Image();
 palaImage.src = "src/Pala.png";
@@ -27,7 +27,7 @@ const cargaInicial = () => {
       if (pelota.x + pelota.ancho === pala.x) {
         pelota.direccionX = "izquierda";
       }
-      if (pelota.x > pala.x) {
+      if (pelota.x === pala.x + pala.ancho) {
         pelota.direccionX = "derecha";
       }
     }
